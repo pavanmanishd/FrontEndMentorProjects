@@ -1,0 +1,88 @@
+/* html{
+    width: 100%;
+    height: 700px;
+    padding: auto;
+} */
+body{
+    margin: 0px;
+}
+.page{
+    width: 100%;
+    height: 680px;
+    background-color:  hsl(30, 38%, 92%);
+}
+img{
+    width: 300px;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.img{
+    float: left;
+}
+.text{
+    clear: right;
+    text-align: center;
+    height: 450px;
+}
+.container{
+    width: 740px;
+    margin: auto;
+    border-radius: 3%;
+    background-color: white;
+    
+}
+.product-type{
+    margin-top: 0px;
+    padding-top: 3%;
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 30px;
+    opacity: 50%;
+    margin-left: 46%;
+}
+h1{
+    font-family: "Georgia";
+    font-weight: 800;
+    font-size: 40px;
+}
+.info{
+    font-family: "Georgia";
+    font-weight: 100;
+    line-height: 200%; 
+    color: gray;
+    font-size: 20px;
+    opacity: 50%;
+    padding-left: 43%;
+    padding-right: 2%;
+}
+.net-price{
+    display: inline-block;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    margin: 10px;
+}
+.prev-price{
+    display: inline-block;
+    padding-left: 50px;
+    font-family: "Fraunces";
+    font-weight: 300;
+    font-size: 20px;
+    color: gray; 
+    opacity: 50%; 
+}
+button{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-family:"Montserrat";
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+
+}
